@@ -1,0 +1,336 @@
+/*Navigation Bar*/
+body{
+  background-color: lightgrey;
+}
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+.top-nav{
+    /* background-color: black; */
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+}
+
+.list{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.list > li{
+    color: #fff;
+    margin-right: 20px;
+    cursor : pointer;
+}
+
+.btn {
+    padding:0.8rem 1.4rem;
+    border: none;
+    border-radius: 30px;
+  }
+  
+  .btn-blue {
+    background-color:#0078BE;
+    color: #fff;
+    font-weight: bold;
+  }
+
+  .hero-paragraph{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .hero {
+    background-image: url("/images/slide9.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 70%;
+    position: relative;
+    padding: 0 0 60vh 0;
+  }
+  
+
+  .container {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0 ;
+    width: 100%;
+  }
+
+  .contain{
+    display: flex;
+    justify-content: space-between;
+  }
+
+h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+h3{
+  color: gray;
+}
+.flex{
+    display: flex;
+    justify-content: space-evenly;
+}
+.colomn{
+  padding: 10px;
+  height: 400px;
+  width:20%;
+  border-radius: 20px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+}
+.card{
+  display: flex;
+}
+.outercontainer{
+background-image: url(../images/slide9.jpg);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+position: relative;
+padding: 0 0 100vh 0;
+}
+
+.hero2 {
+  margin-top: 80px;
+  background-image: url("/images/parallax-4.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  max-height: 50%;
+  position: relative;
+  /* padding: 0 0 50vh 0; */
+}
+
+.flex-center{
+  display: flex;
+  justify-content: center;
+}
+.col-center{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-items: center;
+}
+.flex2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50vh 0 50vh 0;
+    /* justify-content: center; */
+}
+
+.margin{
+  margin-top: 80px;
+}
+
+
+/* Join section */
+
+.colomn1{
+  padding: 10px;
+  height: 500px;
+  /* width:20%; */
+  border-radius: 20px;
+  margin: 10px;
+  display: flex;
+  flex: 1 1 16rem;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+}
+
+.colomn2{
+  padding: 10px;
+  height: 500px;
+  /* width:20%; */
+  border-radius: 20px;
+  margin: 10px;
+  display: flex;
+  flex: 1 1 20rem;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+}
+
+.know-btn {
+  padding:0.8rem 2rem;
+  border: none;
+  border-radius: 30px;
+  background-color:#0078BE ;
+  color: #fff;
+}
+
+.lists{
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.lists > li{
+  padding-left: 1rem;
+  padding-bottom: 1rem;
+}
+
+.flex-reverse{
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.flex-colomn{
+  display: flex;
+  flex-direction: column;
+}
+
+.pad{
+  padding-left: 0.5rem;
+}
+
+/* Hub Section */
+
+.hero-hub{
+  margin-top: 80px;
+  background-image: url("/images/parallax-light.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  /* height: 70%; */
+  position: relative;
+  padding: 0 0 5vh 0;
+}
+
+.paragraph-hub{
+  text-align: center;
+  padding-top: 3rem;
+  padding-bottom: 7rem;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.paragraph-hub-2{
+  text-align: center;
+  padding-top: 3rem;
+  padding-bottom: 4rem;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.flex-hub{
+  display: flex;
+  justify-content: space-around;
+}
+
+.flex-colomn-hub{
+  display: flex;
+  flex:10rem;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Track Section */
+
+.hero-track{
+  margin-top: 80px;
+  background-image: url("/images/parallax-7.jpg");
+  height: 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  /* height: 70%; */
+  position:relative;
+  padding: 10vh 0 0 0; 
+}
+
+.flex-track{
+  display: flex;
+  justify-content: space-around;
+}
+
+.flex-colomn1{
+  display: flex;
+  flex:1 1 1rem;
+  flex-direction: column;
+  align-items: center;
+}
+
+.flex-colomn2{
+  display: flex;
+  flex:1 1 1rem;
+  flex-direction: column;
+  align-items: center;
+}
+
+.flex-colomn-track{
+  padding: 10px;
+  /* height: 500px; */
+  /* width:20%; */
+  border-radius: 20px;
+  margin: 10px;
+  display: flex;
+  flex: 1 1 8rem;
+  flex-direction: column;
+  align-items: center;
+  /* background-color: #fff; */
+}
+
+.flex-colomn-track2{
+  padding: 10px;
+  /* height: 500px; */
+  /* width:20%; */
+  border-radius: 20px;
+  margin: 10px;
+  display: flex;
+  flex: 1 1 3rem;
+  flex-direction: column;
+  align-items: center;
+  /* background-color: #fff; */
+}
+
+.paragraph-track{
+  color: #fff;
+  text-align: center;
+  padding-top: 3rem;
+  padding-bottom: 4rem;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.paragraph-track2{
+  color: #fff;
+  text-align: center;
+  padding-top: 3rem;
+  padding-bottom: 4rem;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.flex-t{
+  display: flex;
+  justify-content: center;
+}
+
+.track-btn {
+  text-align: center;
+  cursor: pointer;
+  padding:0.8rem 2rem;
+  border: none;
+  border-radius: 30px;
+  background-color:#0078BE ;
+  color: #fff;
+}
+
